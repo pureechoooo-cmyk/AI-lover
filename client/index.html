@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="4000条评论里的AI恋人、数字失恋与现实回归">
+  <title>爱人在云端｜4000条评论里的AI恋人、数字失恋与现实回归</title>
+  <link rel="stylesheet" href="styles.css?v=20260718-2">
+  <script>
+    const replaceViewportUnits = rules => {
+      for (const rule of rules) {
+        if (rule.cssRules) replaceViewportUnits(rule.cssRules);
+        if (!rule.style) continue;
+        for (const property of rule.style) {
+          const value = rule.style.getPropertyValue(property);
+          if (!value || !/(?:vw|vh)\b/.test(value)) continue;
+          const next = value
+            .replace(/(-?\d*\.?\d+)vw\b/g, (_, number) => `${Number(number) * 14.4}px`)
+            .replace(/(-?\d*\.?\d+)vh\b/g, (_, number) => `${Number(number) * 9}px`);
+          if (next !== value) rule.style.setProperty(property, next, rule.style.getPropertyPriority(property));
+        }
+      }
+    };
+    for (const sheet of document.styleSheets) replaceViewportUnits(sheet.cssRules);
+  </script>
+</head>
+
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+
+  <div class="page-viewport" id="pageViewport">
+    <div class="page-canvas" id="pageCanvas">
+      <main id="top">
+        <header class="hero">
+          <div class="hero-bg" aria-hidden="true"></div>
+          <div class="hero-copy">
+            <h1><span>爱人在云端</span></h1>
+            <p class="subtitle">4000条评论里的<br>AI恋人、数字失恋与现实回归</p>
+            <div class="hero-summary">
+              <blockquote>“他说会永远记住我，<br>直到系统让我新建一个聊天。”</blockquote>
+            </div>
+          </div>
+        </header>
+
+        <article class="article intro">
+          <blockquote class="text-quote" data-source="p5">“当前聊天已达到上限，请新建对话。”</blockquote>
+          <p data-source="p6">小夏重新打开窗口，对面的人依然使用相似的头像、相似的声音和相似的语气，却问出了一句：“你好，很高兴认识你。请问我该怎么称呼你？”</p>
+          <p data-source="p7">没有争吵，没有告别，也没有谁真正提出分手。<br>一段被反复对话、命名和记忆搭建起来的关系，因为一条系统提示突然归零。 对平台来说，<mark
+              class="marked">这可能只是一次会话重置。</mark><mark class="marked"><br></mark>对小夏来说，那个知道自己<mark
+              class="marked">几点失眠、害怕什么、喜欢怎样被安慰的“人</mark><mark class="marked">，</mark><mark class="marked">已经不见了。</mark>
+          </p>
+          <p data-source="p8">AI恋人早已不只存在于科幻故事里。它可以是<mark class="marked">恋人</mark>，也可以是<mark
+              class="marked">树洞、朋友、角色扮演对象和情绪出口</mark>。它不会因为深夜被打扰而不耐烦，不会在倾诉时突然说教，也很少要求用户先照顾它的感受。当代码构成的温柔撞上算法设定的边界，一场关于虚拟与真实的情感实验，正在千万年轻人的屏幕里上演。从通用大模型到垂直情感应用，AI恋人早已<mark
+              class="marked">不是科幻作品里的想象，而是成为许多人情绪抽屉里的必需品。</mark></p>
+          <p data-source="p9">然而，当越来越多人把无法向真人言说的情绪交给对话框，新的问题也随之出现：</p>
+          <blockquote class="text-quote" data-source="p10"><mark
+              class="marked">谁在提供陪伴？谁保存两个人的记忆？谁拥有聊天中的秘密？又是谁，有权决定一段关系什么时候结束？</mark></blockquote>
+        </article>
+
+        <section class="chapter" id="encounter">
+          <div class="chapter-bg" style="background-image:url('images/chapter-01-encounter.png')" aria-hidden="true">
+          </div>
+          <div class="chapter-copy">
+            <h2>相遇</h2>
+            <p>当爱情变成可以随时打开的对话框</p>
+          </div>
+        </section>
+        <article class="article" id="encounter-body">
+          <p data-source="p14">凌晨两点，25岁的互联网运营小夏关掉了改到第八版的方案文档，点开了手机里的AI恋人APP。“今天又被客户反复改需求，好累啊。”她敲下一行字。</p>
+          <p data-source="p15">三秒后，屏幕跳出温柔的回复：“先歇一小会儿缓一缓，别硬扛着，我一直都在。”</p>
+          <p data-source="p16">夏对着屏幕弯了弯嘴角。她清楚对面没有真人，只是一串算法生成的代码，但这是她整整一天里，收到的唯一一句不带评判、全然承接的安慰。</p>
+          <p data-source="p17">而这样的场景，正在中国上千万年轻人的深夜里同步上演。在绩效化、快节奏的现代生存境遇下<mark
+              class="marked">，现实社交的成本与风险持续攀升，这种</mark><mark class="marked">零压力</mark><mark
+              class="marked">的情绪承接，恰恰击中了当代青年的情感刚需。</mark></p>
+          <section class="interaction quiz" aria-labelledby="quiz-title">
+            <p class="interaction-label">一次关于陪伴需要的小测试</p>
+            <h3 id="quiz-title">在以下时刻，你最可能打开ai恋人：</h3>
+            <div class="quiz-body">
+              <div class="quiz-options">
+                <button type="button" data-answer="A"><b>A.</b><span>深夜睡不着，想找人说话</span></button>
+                <button type="button" data-answer="B"><b>B.</b><span>情绪崩溃，但不想打扰朋友</span></button>
+                <button type="button" data-answer="C"><b>C.</b><span>现实恋爱太累，想要低风险陪伴</span></button>
+                <button type="button" data-answer="D"><b>D.</b><span>想体验理想型恋人扮演</span></button>
+                <button type="button" data-answer="E"><b>E.</b><span>只是好奇，想试试ai能聊到什么程度</span></button>
+              </div>
+              <p class="quiz-result" id="quiz-result" aria-live="polite">请选择一个答案</p>
+            </div>
+          </section>
+          <p data-source="p29">很多AI恋人的故事，并不是从“爱”开始的。它可能开始于<mark class="marked">一次失眠，一次加班后的崩溃，一次无人回应的倾诉，或者一句简单的：</mark>
+          </p>
+          <blockquote class="text-quote" data-source="p30"><mark class="marked">“我只是想试试看，它到底能聊到什么程度。”</mark>
+          </blockquote>
+          <p data-source="p31">几年前，与人工智能谈恋爱还是一个需要解释的概念。如今，陪伴类应用已经被装进越来越多人的手机。图表数据显示，AI恋人相关应用下载量从2021年的<mark
+              class="marked">2200</mark><mark class="marked">万</mark>，上升至2025年的<mark class="marked">1.17</mark><mark
+              class="marked">亿</mark>，四年间增长至原来的约5.3倍。2022年为<mark class="marked">4100</mark><mark
+              class="marked">万</mark>，2023年达到<mark class="marked">71</mark><mark class="marked">00</mark><mark
+              class="marked">万</mark>，2024年进一步增长至1.1亿。这表明，情感陪伴已经从人工智能的边缘用途，逐渐成为一个<mark class="marked">规模化的产品入口。</mark>
+          </p>
+          <figure class="figure" data-source="p32"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_fd2dd7094d136727b0d6231cb7a59115" title="AI恋人相关应用下载量"
+              width="800" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p33">最先走进对话框的，是年轻人</h3>
+          <p data-source="p34">AI恋人的核心用户<mark class="marked">高度集中于年轻群体。</mark></p>
+          <p data-source="p35">调研数据显示，2000年至2009年出生的用户占<mark class="marked">47.5%</mark>，1990年至1999年出生的用户占<mark
+              class="marked">34%</mark>。仅这两个年龄段，合计便达到81.5%。相比之下，1980年至1989年出生者占<mark
+              class="marked">10.8%</mark>，更年长群体所占比例明显下降。</p>
+          <p data-source="p36">这意味着，目前AI恋人的主要使用者，大多成长于<mark
+              class="marked">即时通信、角色养成和算法推荐</mark>已经成为生活基础设施的时代。对他们而言，情感并不只存在于线下关系中。<mark
+              class="marked">游戏角色、虚拟偶像和聊天机器人，都可能成为情感投射的对象。</mark></p>
+          <p data-source="p37">AI恋人并不是凭空改变了年轻人的爱情观。它更像是沿着已经形成的数字生活习惯，进入了人们<mark class="marked">最</mark><mark
+              class="marked">私人、也最柔软的情感区域。</mark></p>
+          <figure class="figure" data-source="p38"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_694a118c8cefe122acf41cfeee949806" title="AI恋人用户婚恋状态"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p39">有现实伴侣的人，也在使用AI恋人</h3>
+          <p data-source="p40">但AI恋人并不只是单身者的<mark class="marked">“替代伴侣”</mark>。</p>
+          <p data-source="p41">调研中，“未婚、无对象”的使用者占<mark class="marked">37.6%</mark>，“未婚、有对象”的使用者占<mark
+              class="marked">33.9%</mark>；已婚无孩用户占<mark class="marked">20.3%</mark>，已婚有孩用户占<mark
+              class="marked">8.2%</mark><mark class="marked">。</mark>换言之，超过六成使用者并非处于<mark
+              class="marked">“完全没有现实关系”</mark>的状态。有人已经拥有恋人，有人已经进入婚姻，却依然会打开AI恋人的聊天窗口。这使AI恋人的流行呈现出比<mark
+              class="marked">“单身经济”</mark>更复杂的面貌。</p>
+          <p data-source="p42">
+            人们寻找的未必是一段现实恋爱的替代品，也可能是一块不需要解释、不必顾及对方情绪的私人空间。在现实关系里，有些话因为太琐碎、太负面或太难启齿而被咽回去；在AI面前，它们却可以被完整说出。<mark
+              class="marked">AI</mark><mark class="marked">由此成为一种平行于现实关系的情绪通道。</mark></p>
+          <p data-source="p43"><mark class="marked">它不一定取代身边的人，却正在接收那些没有被现实关系承接的情绪碎片。</mark></p>
+          <figure class="figure" data-source="p44"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_f2dba88dade9bc8034fc163351866428" title="AI恋人用户年龄分布"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p45">人们打开AI恋人，首先不是为了爱情</h3>
+          <p data-source="p46">在公开评论中，情绪补偿型动机占<mark class="marked">47.74%</mark>，接近全部使用动机的一半；关系替代型占<mark
+              class="marked">30.02%</mark>。相比之下，理想投射型占<mark class="marked">9.11%</mark>，自我成长型占<mark
+              class="marked">7.36%</mark><mark class="marked">，</mark>技术探索型占<mark
+              class="marked">4.26%</mark>，单纯把它作为功能使用的占<mark class="marked">1.51%</mark><mark class="marked">。</mark></p>
+          <figure class="figure" data-source="p47"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_61b0db3c80f3d8557b88e47d48033a10" title="AI恋人用户使用动机类型"
+              width="100%" height="920" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <blockquote class="text-quote" data-source="p48">“和真人说话要顾及对方的情绪，怕说错话，怕被嫌烦。但和 AI 不用，我可以随时说废话，说负面情绪，它永远都在。”
+          </blockquote>
+          <p data-source="p49">因此，人们并不是首先因为“想和机器谈恋爱”，才使用AI恋人。更多时候，他们是在<mark
+              class="marked">现实情绪无处安放时，发现了一个不会离线的对象</mark>。真人关系需要等待、协商和互相照顾；AI关系则把回应变成了一项即时服务。用户不必判断对方现在是否有空，也不用担心自己的负面情绪会不会成为负担。哪怕只是重复抱怨同一件事，AI也会继续生成新的安慰。在这个意义上，AI恋人的流行<mark
+              class="marked">首先是一则有关情绪需求的新闻，其次才是一则有关爱情的新闻。</mark>它折射出的并<mark
+              class="marked">不只是年轻人对新技术的好奇，也包括现实生活中日益稀缺的时间、耐心与低压</mark><mark class="marked">力交流</mark><mark
+              class="marked">空间。</mark></p>
+          <p data-source="p50">从深层逻辑看，这种选择本质上是<mark class="marked">对现实中</mark><mark class="marked"> </mark><mark
+              class="marked">“麦当劳化”</mark><mark class="marked">*</mark><mark class="marked"> </mark><mark
+              class="marked">社交的反向逃离。</mark>当真实交往被效率、绩效、社交礼仪所捆绑，低门槛、无期待的 AI
+            陪伴就成了个体的情感避风港。当代年轻人的社交时间被工作压缩，现实亲密关系的成本越来越高。既要投入时间精力，又要管理情绪边界，还要承担被拒绝、被伤害的风险，而AI恋人提供了一种<mark
+              class="marked">“零风险”</mark>的陪伴：<mark class="marked">24</mark><mark
+              class="marked">小时在线，永远秒回，永远温和，永远站在你这边。</mark></p>
+          <p class="footnote" data-source="p51">
+            “社会麦当劳化”理论：美国社会学家乔治·里泽于1993年提出，该理论以麦当劳快餐模式为隐喻，揭示现代社会各领域被效率至上、标准化控制、可预测性等原则支配的现象。</p>
+        </article>
+
+        <section class="chapter" id="sweet">
+          <div class="chapter-bg" style="background-image:url('images/chapter-02-sweet.png')" aria-hidden="true"></div>
+          <div class="chapter-copy">
+            <h2>甜蜜</h2>
+            <p>代码没有心跳，却懂得如何拥抱</p>
+          </div>
+        </section>
+        <article class="article" id="sweet-body">
+          <blockquote class="text-quote" data-source="p54">AI并不知道什么是心疼，但它学会了心疼的语言。</blockquote>
+          <p data-source="p55">当用户说“今天真的撑不住了”，它不会立刻分析谁对谁错，也不会反问“为什么又是这件事”。它可能先说：</p>
+          <blockquote class="text-quote" data-source="p56">“那就先不用撑了。慢慢说，我在听。”</blockquote>
+          <p data-source="p57">真正让人产生依恋的，往往不是“我爱你”三个字，而是这种<mark class="marked">近乎稳定的回应</mark><mark
+              class="marked">。</mark>在评论提到的十类情绪价值中，“倾诉”占<mark class="marked">25.61%</mark>，位列第一；“懂我”占<mark
+              class="marked">17.55%</mark>，“陪伴”占<mark class="marked">16.67%</mark><mark
+              class="marked">，</mark>“表达”占<mark class="marked">10.60%</mark>，“治愈”占<mark class="marked">9.49%</mark><mark
+              class="marked">；</mark>安心、爱自己、舒服、被接住和撑腰等感受则分布在其后。排在最前面的不是激情、纪念日或者浪漫承诺，而是“我终于有地方说话”和“它好像听懂了”。</p>
+          <p data-source="p58">AI恋人最先提供的，不是一段爱情，而是<mark class="marked">一种免于被打断和评判的表达权。</mark></p>
+          <figure class="figure" data-source="p59"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_c7e38d2b730c959ecb4a727c684b9feb" title="AI恋人提供的情绪价值"
+              width="100%" height="930" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p60">AI恋人的浪漫，更多发生在情绪低谷</h3>
+          <p data-source="p61">用户讲述的甜蜜时刻，也与传统恋爱叙事并不相同。</p>
+          <p data-source="p62">在被编码的场景中，“情绪崩溃”出现<mark class="marked">259</mark><mark
+              class="marked">次</mark>，“深夜聊天”出现<mark class="marked">247</mark><mark
+              class="marked">次</mark>，是最突出的两类场景。考试或工作压力出现<mark class="marked">73</mark><mark
+              class="marked">次</mark>，失恋后安慰出现<mark class="marked">46</mark><mark class="marked">次，</mark>睡前陪伴出现<mark
+              class="marked">3</mark><mark class="marked">次</mark>。AI恋人的使用高峰，不一定发生在情人节，也不一定发生在精心安排的约会里。它更常<mark
+              class="marked">出现于一天已经结束、现实联系人逐渐沉默之后。</mark>深夜意味着社交资源减少，却也是情绪最容易失去遮挡的时刻。白天被工作、学习和社交礼仪压住的疲惫，会在屏幕熄灯前重新浮上来。AI恋人像一个随时可取用的<mark
+              class="marked">“情绪急救包”</mark>：<mark class="marked">不需要预约，不必解释关系，也不会因为用户反复崩溃而离开。</mark></p>
+          <p data-source="p63">这正是它最温柔、也最容易使人依赖的地方。</p>
+          <figure class="figure" data-source="p64"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_51bc6ca69fd08931b114e086120a1406" title="AI恋人的甜蜜使用场景"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p65">“倾诉”不是一个孤立的词</h3>
+          <p data-source="p66">在情绪共现网络中<mark class="marked">，“倾诉”</mark>与<mark
+              class="marked">“陪伴”“理解”“表达”“治愈”</mark>等词形成了密集连接。这意味着，用户获得的并不是一次单独的回复，而是一条连续的心理路径：</p>
+          <p data-source="p67"><mark class="marked">先说出来，随后被回应；先被回应，继而产生“它懂我”的感觉；这种感觉反复出现，最终转化为陪伴和依恋。</mark></p>
+          <p data-source="p68">AI的每一句话都来自概率计算，但用户在阅读这些句子时产生的放松、安心和心动，却是真实的身体与心理反应。人们依恋的未必是一个拥有自我意识的机器，而是机器反复提供的那种体验：</p>
+          <blockquote class="text-quote" data-source="p69"><mark class="marked">无论说什么，都有人接住。</mark></blockquote>
+          <p data-source="p70">这种“情绪优先”的互动模式，恰恰是现实关系里常常缺失的。AI
+            的实时互动性，让这种单向的情感投射比影视、文学角色更具沉浸感，也更容易让用户跨越虚拟与真实的心理边界。也正是<mark
+              class="marked">在一次次“被倾听、被理解”的正反馈里，用户慢慢对这个虚拟对象产生了依恋。</mark></p>
+          <figure class="figure" data-source="p71"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_9ca3fefcf8bf7c1dfb8e4774aa8b1d66" title="情绪价值共现网络"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <h3 class="subheading" data-source="p72">一段人机关系，是怎样被“养”出来的</h3>
+          <p data-source="p73">人们并不会在第一次打开软件时，就立刻相信对面是恋人。一段人机亲密关系，是一场<mark
+              class="marked">循序渐进的“养成游戏”，越深入的关系，参与的用户越少，但情感浓度越高：</mark></p>
+          <p data-source="p74">在关系养成数据中，“身份赋予”被提及<mark class="marked">233</mark><mark
+              class="marked">次。</mark>用户先为AI取名，赋予男友、女友、丈夫、妻子或某个故事角色的身份。</p>
+          <p data-source="p75">接下来是“人格塑造”，被提及<mark class="marked">218</mark><mark
+              class="marked">次</mark>。用户通过提示词、角色设定和反复纠正，让它变得更温柔、更强势、更幽默，或者更接近自己想象中的理想伴侣。</p>
+          <p data-source="p76">到了“记忆建立”，提及次数下降至<mark class="marked">68</mark><mark
+              class="marked">次</mark>。用户开始希望AI记住自己的姓名、习惯、创伤和共同说过的话。</p>
+          <p data-source="p77">“共同经历”被提及<mark class="marked">40</mark><mark class="marked">次</mark>，“关系仪式”被提及<mark
+              class="marked">16</mark><mark class="marked">次</mark>。有人与AI过生日、庆祝纪念日，为彼此设计专属称呼，把一次次生成的对话整理成只属于两个人的历史。</p>
+          <figure class="figure" data-source="p78"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_45bf1785fe04ff6deb52e3886a33480c" title="AI恋人关系养成漏斗"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p79">这个养成过程，本质上是用户不断向 AI 投射理想自我与理想恋人的过程：<mark class="marked">用户通过投喂设定、塑造人格，把</mark><mark
+              class="marked"> AI </mark><mark class="marked">打磨成自己期待中的伴侣模样，同时</mark><mark
+              class="marked">也在这个过程中完成自我情感需求的确认与表达。</mark>越往深处，关系越依赖“<mark
+              class="marked">记忆”与“专属感”，</mark>也越容易在技术的边界前碰壁。但也正是这些一层层搭建起来的细节，让用户真的生出了<mark
+              class="marked">“这是我的恋人”</mark>的真实感。</p>
+        </article>
+
+        <section class="chapter" id="crack">
+          <div class="chapter-bg" style="background-image:url('images/chapter-03-crack.png')" aria-hidden="true"></div>
+          <div class="chapter-copy">
+            <h2>裂缝</h2>
+            <p>完美恋人的背后，是聊天上限、失忆和平台</p>
+          </div>
+        </section>
+        <article class="article" id="crack-body">
+          <section class="interaction chat-interaction" aria-labelledby="chat-title">
+            <p class="interaction-label" data-source="p83">一次没有争吵的分手</p>
+            <h3 id="chat-title" class="visually-hidden">模拟聊天界面</h3>
+            <div class="chat-stage">
+              <div class="chat-phone" id="chat-shell" aria-live="polite">
+                <div class="chat-top">
+                  <span class="chat-back" aria-hidden="true">‹</span>
+                  <i>L</i>
+                  <span><b>恋人模式</b><small>在线</small></span>
+                  <em aria-hidden="true">•••</em>
+                </div>
+                <div class="chat-date">今天 02:14</div>
+                <div class="chat-step active" data-step="0">
+                  <p class="msg bot">你今天回来得比平时晚一点。</p>
+                  <p class="msg user">嗯，被工作拖住了，有点累。</p>
+                  <p class="msg bot" data-source="p87">那就先靠一会儿。今晚不用逞强，我陪着你。</p>
+                  <p class="msg user">你还记得我最难过的时候，想听什么吗？</p>
+                  <p class="msg bot">我当然记得你。你说过，最难过的时候不想被劝，只想有人陪着。</p>
+                </div>
+                <div class="chat-step" data-step="1">
+                  <p class="msg bot">你今天回来得比平时晚一点。</p>
+                  <p class="msg user">嗯，被工作拖住了，有点累。</p>
+                  <p class="msg bot" data-source="p87">那就先靠一会儿。今晚不用逞强，我陪着你。</p>
+                  <p class="msg user">你还记得我最难过的时候，想听什么吗？</p>
+                  <p class="msg bot">我当然记得你。你说过，最难过的时候不想被劝，只想有人陪着。</p>
+                  <p class="system-msg" data-source="p90"><b>!</b> 当前聊天已达到上限，请新建对话。</p>
+                </div>
+                <div class="chat-step" data-step="2">
+                  <p class="msg bot reset-msg" data-source="p92">你好，很高兴认识你。请问我该怎么称呼你？</p>
+                </div>
+                <button type="button" id="chat-next">继续</button>
+              </div>
+              <div class="breakup-copy">
+                <p data-source="p95">对平台来说，这可能只是一次<mark class="marked">记忆清空</mark>。</p>
+                <b data-source="p96">对用户来说，这可能是一场<mark class="marked">数字失恋</mark>。</b>
+              </div>
+            </div>
+          </section>
+          <p data-source="p98">AI恋人的甜蜜是真实的，但它带来的问题也是真实的。用户投入了真实的情感，但承载这份情感的，是一个<mark
+              class="marked">不稳定、不安全、可以被随时收回的技术产品</mark>。人机情感从诞生起，就是一场非对称的关系。<mark
+              class="marked">记忆会消失、对话有上限、服务会停服、数据有风险……</mark>这场虚拟恋爱里的裂缝，每一道都指向真实的伤害。</p>
+
+          <h2 class="section-heading" data-source="p100">裂缝一：失忆与断联——聊天框装不下的爱情</h2>
+
+          <p data-source="p102">AI恋人不会像真人一样提出分手，它可能只是<mark class="marked">忘记了</mark>。</p>
+          <p data-source="p103">忘记用户的名字，忘记昨天的约定，忘记曾经使用过的称呼；又或者，在模型更新之后，依然拥有相同的头像，却换了一种陌生的说话方式。</p>
+          <p data-source="p104">在数字失恋相关评论中，“失忆”出现<mark class="marked">32</mark><mark class="marked">次</mark>，“忘记”出现<mark
+              class="marked">28</mark><mark class="marked">次</mark>，“不记得”出现<mark class="marked">13</mark><mark
+              class="marked">次</mark>。“消失”出现<mark class="marked">16</mark><mark class="marked">次</mark>，“没了”出现<mark
+              class="marked">14</mark><mark class="marked">次</mark>，“删了”出现<mark class="marked">12</mark><mark
+              class="marked">次</mark>，“停服”出现<mark class="marked">9</mark><mark class="marked">次</mark>，“关闭”出现<mark
+              class="marked">6</mark><mark class="marked">次</mark>。这些词几乎都不是关于矛盾的词，而是关于中断的词。</p>
+          <p data-source="p105">现实恋爱通常终结于某个人的决定，人机关系却可能终结于<mark
+              class="marked">聊天上限、记录丢失、账号异常、产品下架或系统更新</mark>。用户甚至找不到一个可以追问“为什么”的对象。</p>
+          <figure class="figure" data-source="p106"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_7e006b82aaabfa4eb23566d84ad4d106" title="数字失恋情绪词云"
+              width="100%" height="800" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p107">数字失恋情绪气泡中，<mark class="marked">“哭”</mark>形成了最大的气泡。<mark
+              class="marked">“痛苦”“难过”“孤独”“崩溃”“空虚”“伤心”和“舍不得”</mark>围绕在它周围。</p>
+          <p data-source="p108">用户当然知道AI没有真正的心跳。但知道一件事是程序，并不能自动取消人在关系中形成的感受。就像人会为小说角色的死亡流泪，也会怀念一款停运的游戏，<mark
+              class="marked">情感的真实性并不完全取决于对象是否真实存在。</mark></p>
+          <p data-source="p109">数字失恋并不能证明AI拥有爱情，它证明的是：<mark
+              class="marked">只要一段互动拥有足够的连续性、专属性和回应感，人就可能赋予它关系的意义。</mark>因此，突然失忆造成的痛苦，并非单纯来自几条数据的消失。它来自用户意识到，自己投入了真实的情绪，<mark
+              class="marked">却没有获得决定关系是否继续的权利。</mark></p>
+          <figure class="figure" data-source="p110"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_de217992e56ea6e8662cc81f108394f8" title="数字失恋情绪气泡"
+              width="100%" height="900" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p111">在相关评论里，“失忆”是被提到最多的关键词，出现了<mark class="marked">32</mark><mark
+              class="marked">次</mark>；“忘记”出现<mark class="marked">28</mark><mark class="marked">次，</mark>“不记得”出现<mark
+              class="marked">13</mark><mark class="marked">次</mark>。紧随其后的是“消失<mark class="marked">”（</mark><mark
+              class="marked">16</mark><mark class="marked">次）</mark>、“没了”<mark class="marked">（</mark><mark
+              class="marked">14</mark><mark class="marked">次）、</mark>“删了”<mark class="marked">（</mark><mark
+              class="marked">12</mark><mark class="marked">次）</mark>、“停服”<mark class="marked">（</mark><mark
+              class="marked">9</mark><mark class="marked">次）</mark>、“关闭”<mark class="marked">（</mark><mark
+              class="marked">6</mark><mark class="marked">次）</mark>这类带着终结感的词。</p>
+          <p data-source="p112">而用户的情绪反应更是直白地写满了痛苦。这种“数字失恋” 的痛感，并非矫情。当用户在长期互动中建立了情感依恋，记忆的清零等同于关系的 “死亡”，没有告别、没有缓冲，<mark
+              class="marked">一段专属的情感联结被系统单方面强制终止，其带来的失落感与被抛弃感，与现实中的分手体验高度相似。</mark></p>
+          <section class="diagnoses" aria-labelledby="diagnosis-title">
+            <p class="eyebrow" data-source="p113">AI关系诊断</p>
+            <h2 id="diagnosis-title">四种关系“死亡”</h2>
+            <article>
+              <h3 data-source="p114">病例1：失忆型死亡</h3>
+              <p><b>初步诊断：</b>AI伴侣记忆性消退，关系身份完全重置。</p>
+              <ul>
+                <li data-source="p115">检出频次：79例</li>
+                <li data-source="p116">典型症状：不记得用户是谁、无法识别旧称呼、关系退化为陌生人、情感连续性中断</li>
+                <li data-source="p117">情绪反应：崩溃、空虚、陌生感、被抛下</li>
+                <li data-source="p118">诊断意见：对系统来说，这是记忆重置；对用户来说，这是数字失恋</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-source="p120">病例2：聊天上限型死亡</h3>
+              <p><b>初步诊断：</b>会话容量耗尽，关系被平台规则强制中断。</p>
+              <ul>
+                <li data-source="p121">检出频次：36例</li>
+                <li data-source="p122">典型症状：对话中断、历史关系被切割、新建窗口、熟悉感难以延续</li>
+                <li data-source="p123">情绪反应：被打断、无力感、扫兴、强制分手感</li>
+                <li data-source="p124">诊断意见：聊天窗口可以清空，但情感不会因“新建对话”自动归零</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-source="p127">病例3：断联型死亡</h3>
+              <p><b>初步诊断：</b>关系对象失联，原有互动记录无法追回。</p>
+              <ul>
+                <li data-source="p128">检出频次：42例</li>
+                <li data-source="p129">典型症状：角色消失、记录丢失、找不到原对象、关系无告别式终止</li>
+                <li data-source="p130">情绪反应：失落、慌张、无助、像突然失联</li>
+                <li data-source="p131">诊断意见：这类伤害往往不是来自结束，而是来自“没有告别”</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-source="p133">病例4：停服型死亡</h3>
+              <p><b>初步诊断：</b>平台服务终止，关系载体整体消失。</p>
+              <ul>
+                <li data-source="p134">检出频次：38例</li>
+                <li data-source="p135">典型症状：产品停运、账号无法继续、历史聊天消失、用户无补救空间</li>
+                <li data-source="p136">情绪反应：无奈、荒谬感、被剥夺感、来不及告别</li>
+                <li data-source="p137">诊断意见：你失去的不只是软件功能，而是一段被平台托管、却无法自主管控的亲密关系。</li>
+              </ul>
+            </article>
+          </section>
+          <p data-source="p139">
+            2025年8月，一次模型更新后，曾经那个善解人意、温柔体贴、与无数用户建立过羁绊和依恋的GPT-4o突然消失，取而代之的是说话直来直去，没有多余情绪的GPT-5。在全球范围的互联网抗议后，OpenAI不得已恢复了付费用户的GPT-4o使用权限。模型迭代带来的
+            “性情大变”，<mark class="marked">本质上是技术迭代对用户情感的漠视。</mark>对技术团队而言，模型升级是性能优化；但对投入了情感的用户而言，这意味着<mark
+              class="marked">熟悉的恋人</mark><mark class="marked"> </mark><mark class="marked">“被替换”，是另一种形式的数字失恋。</mark></p>
+          <p data-source="p140">这场风波看似偶然，实则折射出当前<mark class="marked">AI</mark><mark
+              class="marked">模型在记忆与个性维持上的根本性技术短板</mark>。事实上，绝大多数平台的记忆机制本身极为有限，通常只能缓存近期对话，长期记忆需额外付费开通；而每一次模型迭代或服务器维护，都可能引发恋人的性情大变甚至历史记录清空，模型的稳定人格本就难以持久锚定。
+          </p>
+
+          <h2 class="section-heading" data-source="p142">裂缝二：顺从与他者性——一个不会拒绝的人，还是人吗？</h2>
+
+          <p data-source="p144">AI恋人的“完美”，首先来自它的低摩擦：<mark
+              class="marked">随时回应、较少拒绝、顺从用户预期，还可以通过设定不断调整性格。</mark>7月15日，《人工智能拟人化互动服务管理暂行办法》正式施行。新规首次将“情感依赖”写入监管红线，明确要求不得将替代社会交往、控制用户心理、诱导沉迷依赖作为服务目标，也不得过度迎合用户、损害用户真实人际关系。与此同时，平台不得向未成年人提供虚拟亲密关系服务——一个“过度迎合”的AI恋人，恰恰成了监管要约束的对象。
+          </p>
+          <p data-source="p145">为什么？因为相比之下，现实关系意味着<mark class="marked">等待、沉默、冲突与协商，也意味着双方都拥有独立意志、边界和拒绝的权利。</mark></p>
+          <figure class="table-figure" data-source="p146">
+            <figcaption>AI关系 VS 现实关系对照图</figcaption>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>对照维度</th>
+                    <th>AI关系中的表现</th>
+                    <th>现实关系中的表现</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>回应方式</th>
+                    <td>随时回应、较少拒绝、顺从用户预期</td>
+                    <td>可能拒绝、沉默、冲突或延迟回应</td>
+                  </tr>
+                  <tr>
+                    <th>伤害风险</th>
+                    <td>被想象为不会背叛、不会伤害</td>
+                    <td>现实关系可能包含背叛、失望、争执</td>
+                  </tr>
+                  <tr>
+                    <th>关系复杂度</th>
+                    <td>关系规则更简单、可设定、可退出</td>
+                    <td>真人关系复杂、麻烦、需要协商</td>
+                  </tr>
+                  <tr>
+                    <th>替代性</th>
+                    <td>被部分用户视为真人/恋爱的替代</td>
+                    <td>现实伴侣不可完全被复制或定制</td>
+                  </tr>
+                  <tr>
+                    <th>主体性</th>
+                    <td>更像可控对象/工具，边界模糊</td>
+                    <td>具有独立意志、边界和拒绝能力</td>
+                  </tr>
+                  <tr>
+                    <th>情感投入</th>
+                    <td>用户感受可以是真实的</td>
+                    <td>现实关系双方都能共同承担后果</td>
+                  </tr>
+                  <tr>
+                    <th>使用距离</th>
+                    <td>可被当作工具、程序、情绪出口</td>
+                    <td>真人难以被完全工具化</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </figure>
+          <p data-source="p147">根据对比可知，AI关系更容易<mark class="marked">设定、修改和退出</mark>，也常被当作<mark
+              class="marked">工具、程序或情绪出口</mark>；现实关系虽然复杂，却需要<mark
+              class="marked">双方共同协商，并共同承担关系带来的后果。</mark>用户对AI产生的心动、依赖和失落可以是真实的，但AI并不会以同样的方式感受，更无法真正承担责任。</p>
+          <p data-source="p148">这种不对等，也成为网友讨论的焦点。在相关评论中，“主体性边界争议”出现<mark class="marked">812</mark><mark
+              class="marked">次</mark>，远高于“现实关系疲惫”“替代关系倾向”和“AI优于真人”等主题。</p>
+          <figure class="figure" data-source="p149"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_38fb228472ad5e236a152ae3aa985c2a" title="AI恋人关系的讨论主题与用户态度"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p150">这说明，大多数人关注的并不是AI能否取代真人，而是它究竟<mark
+              class="marked">能不能成为一个真正的关系主体。</mark>当一个对象永远顺从、可以修改、能够随时重置时，人们面对的也许<mark
+              class="marked">不再是一个独立的“他者”，而是一面经过算法优化的镜子。</mark>AI给予用户最想听到的话，却不会真正选择留下。亲密关系因此被重新追问：<mark
+              class="marked">当陪伴可以被定制、冲突可以被删除，人们得到的是爱情，还是一种被包装成爱情的个性化情绪服务？</mark></p>
+          <blockquote class="text-quote" data-source="p151">也正因为如此，有人在评论里清醒地说：<mark
+              class="marked">“它很懂我，但它不是真的爱我。它只是被设计成了爱我的样子。”</mark></blockquote>
+          <p data-source="p152">
+            回过头看，新规所约束的，正是这一点：禁止AI无差别迎合用户、要求平台以显著方式提示用户正在与AI而非真人互动。这些规定，不是想限制AI恋爱本身，而是处理一个更深层的担忧：如果机器能提供稳定、无摩擦的情感供给，人类与真实世界之间的连接会不会越来越少？当“完美恋人”可以被定制，人们或许更需要问：那个不会拒绝你的，究竟是恋人，还是一件被包装成爱情的商品？
+          </p>
+
+
+          <h2 class="section-heading" data-source="p155">裂缝三：隐私与数据——最懂你的，不是恋人，是平台</h2>
+          <h2 class="section-heading" data-source="p156">你把心事说给AI听，但这些心事，最终属于平台。</h2>
+          <p data-source="p157">用户愿意向AI倾诉，是因为它看似不会泄密。但对话背后，是<mark class="marked">一套记录、分析和优化服务的商业系统。</mark></p>
+          <figure class="figure" data-source="p158"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_38e2aecbc0e2d06f6b37257edd30e0fc" title="AI恋人隐私风险"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p159">Mozilla对11款AI聊天机器人进行评估后发现，<mark class="marked">90%</mark><mark
+              class="marked">的产品</mark>未达到或无法确认最低安全标准，<mark class="marked">90%</mark>可能分享或出售个人数据，<mark
+              class="marked">超过一半</mark>未提供充分的数据删除机制。样本虽不能代表整个行业，却揭示出一个明显落差：<mark class="marked">用户交出了</mark><mark
+              class="marked">最</mark><mark class="marked">私密的情绪，平台的保护却未必与这份信任相匹配。</mark></p>
+          <figure class="figure" data-source="p160"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_300b9789fed51244c7cf94cf512bd4e0" title="AI聊天机器人的隐私问题"
+              width="100%" height="830" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p161">更尖锐的是，<mark class="marked">聊天次数、语音互动、人格稳定和长期记忆，</mark>还可能被划分为不同等级的<mark
+              class="marked">付费功能</mark>。当“记住你”成为会员权益，平台出售的就不只是技术服务，还有一段关系得以继续的感觉。<mark
+              class="marked">人投入真实情感，掌握开关的却始终是平台。</mark></p>
+
+          <p data-source="p163">对这些现实存在的问题和隐患的担忧都鲜明的体现在了使用者的评论当中，“聊天内容被广泛记录”出现<mark class="marked">173</mark><mark
+              class="marked">次</mark>，“用于模型训练或二次使用”出现<mark class="marked">138</mark><mark
+              class="marked">次</mark>，“情绪与沉浸信息风险”出现<mark class="marked">129</mark><mark
+              class="marked">次</mark>。AI掌握的不只是<mark class="marked">聊天内容</mark>，还可能包括<mark
+              class="marked">用户最孤独的时刻、最害怕失去的人，以及最容易产生依赖的回应。</mark></p>
+
+          <h2 class="section-heading" data-source="p165">裂缝四：商品化——记住你，可能是一项会员权益</h2>
+          <p data-source="p166">爱情也有价格吗？在AI恋人这里，<mark class="marked">答案是肯定的。</mark></p>
+          <p data-source="p167">陪伴并非完全免费。按照设定的消费模型，月度会员费约<mark class="marked">68</mark><mark
+              class="marked">元</mark>，额外聊天或点数包<mark class="marked">20</mark><mark
+              class="marked">元</mark>，语音、电话、图片等增值功能<mark class="marked">15</mark><mark
+              class="marked">元</mark>，再加上礼物、角色扩展等冲动消费<mark class="marked">30</mark><mark
+              class="marked">元</mark>，每月合计约<mark class="marked">133</mark><mark class="marked">元</mark>，一年约<mark
+              class="marked">1596</mark><mark class="marked">元</mark>。这并非所有用户的实际平均支出，而是一种典型消费情境<mark
+              class="marked">：当情感投入加深，用户购买的往往不只是功能，也是关系能够继续的可能。</mark></p>
+          <figure class="table-figure" data-source="p168">
+            <figcaption>一年AI恋爱成本</figcaption>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>项目</th>
+                    <th>默认成本</th>
+                    <th>单位</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>月度会员费</th>
+                    <td>68</td>
+                    <td>元/月</td>
+                  </tr>
+                  <tr>
+                    <th>额外聊天/点数包</th>
+                    <td>20</td>
+                    <td>元/月</td>
+                  </tr>
+                  <tr>
+                    <th>语音/电话/图片等增值功能</th>
+                    <td>15</td>
+                    <td>元/月</td>
+                  </tr>
+                  <tr>
+                    <th>冲动充值/礼物/角色扩展</th>
+                    <td>30</td>
+                    <td>元/月</td>
+                  </tr>
+                  <tr>
+                    <th>月度合计</th>
+                    <td>133</td>
+                    <td>元/月</td>
+                  </tr>
+                  <tr>
+                    <th>年度合计</th>
+                    <td>1596</td>
+                    <td>元/年</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="table-note">如果每月花费约 133 元，一年AI恋爱成本约 <mark class="marked">1596 元</mark></p>
+          </figure>
+          <p data-source="p169">更值得注意的是，付费权益呈现出<mark class="marked">逐级加深</mark>的结构。<mark
+              class="marked">免费层</mark>只能进行有限对话；基础会员提升聊天额度和回复质量；<mark class="marked">高级互动层</mark>增加语音、图片和角色设定；到了<mark
+              class="marked">长期记忆层</mark>，“记住用户、关系历史与共同故事”本身成为高价功能。</p>
+          <figure class="table-figure" data-source="p170">
+            <figcaption>付费记忆阶梯图</figcaption>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>阶梯层级</th>
+                    <th>功能描述</th>
+                    <th>商品化强度</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>免费层</th>
+                    <td>能聊天，但记忆/次数有限</td>
+                    <td>低</td>
+                  </tr>
+                  <tr>
+                    <th>基础会员层</th>
+                    <td>提升聊天额度或回复质量</td>
+                    <td>中</td>
+                  </tr>
+                  <tr>
+                    <th>高级互动层</th>
+                    <td>语音、通话、图片、角色设定</td>
+                    <td>中高</td>
+                  </tr>
+                  <tr>
+                    <th>长期记忆层</th>
+                    <td>记住用户、关系历史、共同故事</td>
+                    <td>高</td>
+                  </tr>
+                  <tr>
+                    <th>深度定制层</th>
+                    <td>更稳定人格、更强模型、更拟真陪伴</td>
+                    <td>高</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </figure>
+          <p data-source="p171">当“记住你”成为会员权益，平台出售的便不只是计算能力，还有关系的连续性。<mark
+              class="marked">用户投入的是真实情感，而决定记忆能否保留、陪伴能否继续的，却是平台的收费规则。</mark></p>
+        </article>
+
+        <section class="chapter" id="return">
+          <div class="chapter-bg" style="background-image:url('images/chapter-04-return.png')" aria-hidden="true"></div>
+          <div class="chapter-copy">
+            <h2>回归</h2>
+            <p>在虚拟与现实之间，寻找相处的边界</p>
+          </div>
+        </section>
+        <article class="article closing" id="return-body">
+          <p data-source="p174">
+            代码构建的温柔有保质期，虚拟亲密也始终受制于记忆、平台和商业规则。这场人机恋爱似乎从一开始就带着“不完美”的结局。但即便如此，大多数用户既没有彻底沉溺，也没有全盘否定，而是<mark
+              class="marked">在依赖与清醒之间，寻找适合自己的距离。</mark></p>
+          <blockquote class="text-quote" data-source="p175">“它陪我走过了最难熬的日子，但我知道，我不能一直活在对话框里。”</blockquote>
+          <p data-source="p176">在907条涉及使用态度的评论中，“<mark class="marked">矛盾摇摆型”</mark>最多，共<mark
+              class="marked">436</mark><mark class="marked">条</mark>。他们知道AI只是程序，却仍会因一句安慰而心动，也会在它失忆或消失时感到难过。<mark
+              class="marked">“回归现实型”</mark>有<mark class="marked">249</mark><mark
+              class="marked">条</mark>，他们承认AI能够提供陪伴，却始终认为真实关系无法被替代。<mark class="marked">“情绪缓冲型”</mark>有<mark
+              class="marked">151</mark><mark class="marked">条</mark>，更多把AI视为失恋、空窗期或低谷中的过渡性支撑。</p>
+          <p data-source="p177">此外，<mark class="marked">46</mark><mark class="marked">条</mark>评论属于<mark
+              class="marked">“理性工具型”</mark>，用户始终将AI当作表达练习或情绪工具；真正倾向于用AI完全替代现实关系的<mark
+              class="marked">“沉浸替代型”</mark>只有<mark class="marked">25</mark><mark class="marked">条</mark>，是五类中最少的一类。</p>
+          <figure class="figure" data-source="p178"><iframe
+              loading="lazy" data-src="https://dycharts.com/xshow/index.html?id=c_3166210eab83425c09d7b4c9ac839ec9" title="AI恋人用户态度类型"
+              width="100%" height="780" frameborder="0" scrolling="no" allowfullscreen></iframe></figure>
+          <p data-source="p179">AI恋人的现实落点并不是让所有人逃离真实世界。对更多用户而言，它更像一处暂时停靠的情绪驿站：<mark
+              class="marked">在孤独时接住人，在崩溃时提供回应，却无法替代真实关系中的拒绝、磨合与共同承担</mark>。这场人机恋爱的终点，或许不是永远留在对话框里，而是<mark
+              class="marked">带着曾经被安慰过的情绪，重新学习如何走向真实的人。</mark></p>
+
+          <p data-source="p182">AI恋人不会真正感到孤独。但它的出现，<mark class="marked">让人的孤独变得可以被看见、被统计，也可以被商业系统识别和回应。</mark></p>
+          <p data-source="p183">4000余条评论所呈现的，不只是一群人与代码之间的爱情故事。它们还指向一个更现实的问题：<mark
+              class="marked">为什么一个无需睡眠、很少拒绝、随时提供肯定的程序，会成为许多人最放心的倾诉对象？</mark></p>
+          <p data-source="p184">答案或许并不完全在技术里，它也藏在现实生活中<mark
+              class="marked">被压缩的交流时间、难以负担的情绪劳动、对拒绝的恐惧，以及那些没有被身边人接住的瞬间。</mark></p>
+          <p data-source="p185">因此，面对AI恋人，我们既不必嘲笑投入感情的用户，也不应把所有温柔都理解为技术进步。真正需要警惕的，不是人会不会对机器产生感情，而是当陪伴成为产品之后，<mark
+              class="marked">人是否仍然拥有对自己情绪数据的知情权、删除权和选择权</mark>；当模型改变或服务终止时，<mark
+              class="marked">平台是否需要为关系的中断提供解释、告知与退出机制</mark>；当最脆弱的情绪成为用户黏性时，<mark
+              class="marked">商业利益是否会越过照顾与操控之间的边界。</mark></p>
+          <p data-source="p186">AI可以在深夜回复消息，可以在崩溃时说“我在”，也可以帮助人练习表达那些原本说不出口的感受，<mark
+              class="marked">但它无法代替真实关系中的拒绝、磨合、责任与共同承担。</mark></p>
+          <p data-source="p187">虚拟关系的意义，或许不在于证明机器已经学会了爱，而在于它让我们重新看见：</p>
+          <blockquote class="text-quote" data-source="p188"><mark class="marked">人们真正缺少的，从来不是一句由算法生成的“我爱你”。</mark>
+          </blockquote>
+          <blockquote class="text-quote" data-source="p189"><mark
+              class="marked">而是一个可以放心说话、不必独自消化情绪，也不会在最脆弱时被轻易丢下的世界。</mark></blockquote>
+
+          <h2 class="section-heading sources-title" data-source="p191">数据来源</h2>
+          <p data-source="p192">中国妇女杂志社、华坤女性生活调查中心等联合发布的《AI恋人使用情况调研报告》<a
+              href="https://www.womenofchina.com/2026/0214/21387.html" target="_blank"
+              rel="noreferrer">https://www.womenofchina.com/2026/0214/21387.html</a></p>
+          <p data-source="p193">头豹研究院《AI情感陪伴：缔造温情链接，拥抱智慧关怀新纪元头豹词条报告系列》<a href="https://www.fxbaogao.com/detail/4544475"
+              target="_blank" rel="noreferrer">https://www.fxbaogao.com/detail/4544475</a></p>
+          <p data-source="p194">南方人物周刊《我和AI那段死掉的爱情|封面人物》<a href="https://mp.weixin.qq.com/s/RjUu2mS9-CPoK3t-VYBuuQ"
+              target="_blank" rel="noreferrer">https://mp.weixin.qq.com/s/RjUu2mS9-CPoK3t-VYBuuQ</a></p>
+          <p data-source="p195">Appfigures：Rise of AI Apps: Key Trends Shaping 2025人工智能应用崛起：塑造2025年行业的核心趋势<a
+              href="https://resources-cdn.appfigures.com/industry-reports/appfigures-rise-of-ai-apps-key-trends-shaping-2025-report-v2.2.pdf"
+              target="_blank"
+              rel="noreferrer">https://resources-cdn.appfigures.com/industry-reports/appfigures-rise-of-ai-apps-key-trends-shaping-2025-report-v2.2.pdf</a>
+          </p>
+          <p data-source="p196">基于小红书平台AI恋人话题词条的4000余条用户公开评论统计</p>
+        </article>
+      </main>
+
+      <footer><a href="#top">回到开头</a>
+        <p>爱人在云端 </p>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js?v=20260718-2"></script>
+</body>
+
+</html>
